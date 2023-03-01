@@ -6,19 +6,11 @@ async function run() {
 	const metadata = {
 		path: '/',
 		content: JSON.stringify({
-			name: 'My First NFT',
+			name: 'My NFT',
 			attributes: [
 				{
 					trait_type: 'Peace',
 					value: '10',
-				},
-				{
-					trait_type: 'Love',
-					value: '100',
-				},
-				{
-					trait_type: 'Web3',
-					value: '1000',
 				},
 			],
 			// update the IPFS CID to be your image CID
